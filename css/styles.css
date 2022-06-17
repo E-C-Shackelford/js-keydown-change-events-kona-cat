@@ -1,0 +1,137 @@
+html {
+  height: 100%;
+}
+
+body {
+  align-content: center;
+  background-image: url("../img/dark-background.jpg");
+  background-size: cover;
+  color: #222;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  height: 100%;
+  justify-content: center;
+  line-height: 1.4;
+  overflow-y: hidden;
+  padding: 2em 0;
+  text-align: left;
+  transition: all 0.25s ease-in;
+}
+
+body.light {
+  background-image: url("../img/light-background.jpg");
+}
+
+header p {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+h1,
+h5 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.875em;
+}
+
+h5 {
+  color: #8b8888;
+  font-size: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+select {
+  border-radius: 10px;
+  color: #4a4a4a;
+  margin-left: 1em;
+  padding: 0.5em;
+  text-transform: none;
+}
+
+.favorite-kona {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.profile-card {
+  border-radius: 15%;
+  color: #c9c9c9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 500px;
+  transition: all 0.3s ease-in;
+  width: 90%;
+}
+
+.light .profile-card {
+  color: #222;
+}
+
+.top {
+  background: url("../img/profile-top-image.jpg");
+  border-radius: 20px 20px 0 0;
+  padding: 6em;
+  width: 100%;
+}
+
+.bottom {
+  background-color: #2b2b2b;
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+}
+
+.light .bottom {
+  background-color: white;
+}
+
+.cat {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+}
+
+.cat img {
+  border: 2px solid #fff;
+  border-radius: 10%;
+  margin-top: -85px;
+}
+
+.stats {
+  align-items: center;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5em 0;
+  width: 100%;
+}
+
+.stats p {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  justify-content: center;
+  text-align: center;
+}
+
+.stats i {
+  padding: 0.5em;
+}
+
+.stats span {
+  cursor: pointer;
+  display: block;
+  padding: 0.5em;
+}
+
+.stats span:active {
+  transform: scale(0.88);
+}
